@@ -66,6 +66,7 @@ namespace PhotoStats
                 
                 using(var wand = new MagickWand(file))
                 {
+                    wand.AutoLevelImage();
                     wand.GetImageChannelMean(ChannelType.AllChannels, out mean, out stddev);
                     wand.GetImageChannelKurtosis(ChannelType.AllChannels, out kurtosis, out skewness);
                     
