@@ -1,0 +1,25 @@
+{
+    "title": "PhotoStats",
+    "authors": [ "Mike Morano <mmorano@mikeandwan.us>" ],
+    "licenseUrl": "https://github.com/AerisG222/PhotoStats/blob/master/LICENSE.md",
+    "projectUrl": "https://github.com/AerisG222/PhotoStats",
+    "summary": "Tool to try and find optiimzation parameters for the SizePhotos tool",
+    "description": "Tool to try and find optiimzation parameters for the SizePhotos tool",
+    "tags": [ "photography", "photo", "optimize" ],
+    "version": "0.1.0",
+    "compilationOptions": {
+        "emitEntryPoint": true,
+        "warningsAsErrors": true
+    },
+    "commands": {
+        "run": "PhotoStats" 
+    },
+    "dependencies": {
+        "CommandLineParser": "2.0.275-*",
+        "NDCRaw": "0.2.1",
+        "NMagickWand": "0.3.7"
+    },
+    "frameworks": {
+        "dnx451": { }
+    }
+}
