@@ -6,7 +6,7 @@
     "summary": "Tool to try and find optiimzation parameters for the SizePhotos tool",
     "description": "Tool to try and find optiimzation parameters for the SizePhotos tool",
     "tags": [ "photography", "photo", "optimize" ],
-    "version": "0.1.0",
+    "version": "0.2.0",
     "compilationOptions": {
         "emitEntryPoint": true,
         "warningsAsErrors": true
