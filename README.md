@@ -1,5 +1,5 @@
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/AerisG222/PhotoStats/blob/master/LICENSE.md)
-[![Travis](https://img.shields.io/travis/AerisG222/PhotoStats.svg?maxAge=2592000)](https://travis-ci.org/AerisG222/PhotoStats)
+[![Travis](https://img.shields.io/travis/AerisG222/PhotoStats.svg)](https://travis-ci.org/AerisG222/PhotoStats)
 [![Coverity Scan](https://img.shields.io/coverity/scan/10079.svg)](https://scan.coverity.com/projects/aerisg222-photostats)
 
 # PhotoStats
