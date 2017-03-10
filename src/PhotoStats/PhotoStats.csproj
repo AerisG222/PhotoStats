@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>Tool to try and find optiimzation parameters for the SizePhotos tool</Description>
+    <AssemblyTitle>PhotoStats</AssemblyTitle>
+    <VersionPrefix>0.2.0</VersionPrefix>
+    <Authors>Mike Morano &lt;mmorano@mikeandwan.us&gt;</Authors>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>PhotoStats</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>PhotoStats</PackageId>
+    <PackageTags>photography;photo;optimize</PackageTags>
+    <PackageProjectUrl>https://github.com/AerisG222/PhotoStats</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/AerisG222/PhotoStats/blob/master/LICENSE.md</PackageLicenseUrl>
+    <PackageTargetFallback>$(PackageTargetFallback);dnxcore50;portable-net451+win8</PackageTargetFallback>
+    <RuntimeFrameworkVersion>1.1.1</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="0.1.0-e170309-1" />
+    <PackageReference Include="NDCRaw" Version="0.4.0" />
+    <PackageReference Include="NMagickWand" Version="0.5.0" />
+  </ItemGroup>
+
+</Project>
